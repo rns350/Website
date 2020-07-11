@@ -1,7 +1,29 @@
 body {
-    font-family: Arial;
+    font-family: Arial, Verdana, sans-serif;
+    background-color: rgb(200, 200, 200);
+    font-size: 100%;
+}
+
+div#intro {
+    background-color: rgb(230, 230, 230);
+}
+
+p {
+    line-height: 1.4em;
+    text-indent: 2.5em;
+    padding: 10px;
+}
+
+figcaption#Graylock_cap {
+    width: 720px;
+    text-align: center;
 }
 
 h1, h2 {
-    color: #37c2de;
+    font-family: Impact, fantasy;
+    letter-spacing: 0.05em;
+    background-color: black;
+    color: gray;
+    font-size: 200%;
+    padding-left: 10px;
 }
