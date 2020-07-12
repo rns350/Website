@@ -4,6 +4,12 @@ body {
     font-size: 100%;
 }
 
+figure#front{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div#intro {
     background-color: rgb(230, 230, 230);
 }
@@ -14,13 +20,19 @@ p {
     padding: 10px;
 }
 
+ol {
+    list-style-type: decimal;
+    margin: 10px;
+}
+
 figcaption#Graylock_cap {
     width: 720px;
     text-align: center;
 }
 
 h1, h2 {
-    font-family: Impact, fantasy;
+    text-align: center;
+    font-family: fantasy;
     letter-spacing: 0.05em;
     background-color: black;
     color: gray;
