@@ -2,9 +2,15 @@ body {
     font-family: Arial, Verdana, sans-serif;
     background-color: rgb(200, 200, 200);
     font-size: 100%;
+    background-image: url("images/Cave_Floor.jpg");
+}
+
+ol{
+    background-color: rgb(230, 230, 230);
 }
 
 figure#front{
+    display: block;
     width: 720px;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +34,7 @@ ol {
 figcaption#Graylock_cap {
     width: 720px;
     text-align: center;
+    color: rgb(226, 219, 219);
 }
 
 h1, h2 {
