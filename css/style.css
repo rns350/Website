@@ -56,10 +56,55 @@ div#contact ul{
 }
 
 div#contact ul li{
-    border: 1px solid #000000;
+    border: 2px solid #000000;
+    margin: 3px 0px;
+    border-radius: 3px;
+    padding: 0px 3px;
+}
+li#email{
+    background-image: url("images/Mail.png");
+    background-repeat: no-repeat;
+    text-indent: 37px;
+}
+
+li#linkedin{
+    background-image: url("images/In.png");
+    background-repeat: no-repeat;
+    text-indent: 37px;
+}
+
+li#resume{
+    background-image: url("images/Resume.png");
+    background-repeat: no-repeat;
+    text-indent: 37px;
+}
+
+li#github{
+    background-image: url("images/Git.png");
+    background-repeat: no-repeat;
+    text-indent: 37px;
 }
 
 div#about{
-    height: 403px;
-    padding: 5px;
+    height: 413px;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+
+div#about p{
+    text-indent: 3em;
+}
+
+h2{
+    text-align: center;
+}
+
+div#recent-posts{
+    margin-top:10px;
+    border-radius:5px;
+    padding: 0px 3px;
+}
+
+div#recent-posts{
+    text-align: center;
 }
