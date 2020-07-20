@@ -1,48 +1,65 @@
-body {
+@import url("./reset.css");
+@import url("./text.css");
+@import url("./960.css");
+
+img.align-center{
+    display: block;
+    margin: 0px auto;
+}
+
+.bordered {
+    border: 2px solid #000000;
+    overflow: auto;
+}
+
+.wrapper{ 
+    background-color: #adacaa;
+    padding-bottom: 10px;
+}
+
+body{
     font-family: Arial, Verdana, sans-serif;
-    background-color: rgb(200, 200, 200);
     font-size: 100%;
+    background-color: rgb(200, 200, 200);
     background-image: url("images/Cave_Floor.jpg");
 }
 
-ol{
-    background-color: rgb(230, 230, 230);
+div#header{
+    background-color: #adacaa;
 }
 
-figure#front{
-    display: block;
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
+div#nav{
+    clear: both;
+    color: white;
+    background-color: #6d6c6a;
+    border-radius: 5px;
+}
+div#nav ul{
+    padding: 5px 0px 5px 0px;
+    margin-left: 20px;
+    list-style-type: none;
 }
 
-div#intro {
-    background-color: rgb(230, 230, 230);
+div#nav li{
+    display: inline;
+    margin-right: 40px;
 }
 
-p {
-    line-height: 1.4em;
-    text-indent: 2.5em;
-    padding: 10px;
+div#contact{
+    margin-top:10px;
 }
 
-ol {
-    list-style-type: decimal;
-    margin: 10px;
+div#contact ul{
+    list-style:none;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
-figcaption#Graylock_cap {
-    width: 720px;
-    text-align: center;
-    color: rgb(226, 219, 219);
+div#contact ul li{
+    border: 1px solid #000000;
 }
 
-h1, h2 {
-    text-align: center;
-    font-family: fantasy;
-    letter-spacing: 0.05em;
-    background-color: black;
-    color: gray;
-    font-size: 200%;
-    padding-left: 10px;
+div#about{
+    height: 403px;
+    padding: 5px;
 }
