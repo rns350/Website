@@ -65,26 +65,30 @@ li#email{
     background-image: url("images/Mail.png");
     background-repeat: no-repeat;
     text-indent: 37px;
+    background-position: 2px 2px;
 }
 
 li#linkedin{
     background-image: url("images/In.png");
     background-repeat: no-repeat;
     text-indent: 37px;
+    background-position: 2px 2px;
 }
 
 li#resume{
     background-image: url("images/Resume.png");
     background-repeat: no-repeat;
     text-indent: 37px;
+    background-position: 0px 2px;
 }
 
 li#github{
     background-image: url("images/Git.png");
     background-repeat: no-repeat;
     text-indent: 37px;
+    background-position: 2px 2px;
 }
-
+    
 div#about{
     height: 413px;
     padding: 0px 5px;
