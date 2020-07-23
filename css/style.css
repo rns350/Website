@@ -7,14 +7,20 @@ img.align-center{
     margin: 0px auto;
 }
 
+img.align-left{
+    float: left;
+}
+
 .bordered {
     border: 2px solid #000000;
     overflow: auto;
+    border-radius: 5px;
 }
 
 .wrapper{ 
-    background-color: #adacaa;
+    background-color: #dddcd9;
     padding-bottom: 10px;
+    min-height: 550px;
 }
 
 body{
@@ -22,10 +28,6 @@ body{
     font-size: 100%;
     background-color: rgb(200, 200, 200);
     background-image: url("images/Cave_Floor.jpg");
-}
-
-div#header{
-    background-color: #adacaa;
 }
 
 div#nav{
@@ -111,4 +113,12 @@ div#recent-posts{
 
 div#recent-posts{
     text-align: center;
+    padding: 5px 20px 20px 20px;
+}
+
+div.post{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    margin: 0px 0px;
 }
